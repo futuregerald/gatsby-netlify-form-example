@@ -68,6 +68,7 @@ export default class Contact extends React.Component {
           <p>
             <button type="submit">Send</button>
           </p>
+          <div data-netlify-recaptcha><p>recaptcha here</P></div>
         </form>
       </div>
     );
